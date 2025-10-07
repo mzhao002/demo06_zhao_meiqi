@@ -1,1 +1,48 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Darkest Green(Text):     #131d18    (text, contrast with light)
+* Dark Green (Primary):    #d8ffc7
+* Honeydrew (Secondary): #F2FFE9      (canvas background)
+* Reddish-Brown (Accent):  #b75858
+*/
+
+.bg-info {
+  background-color: #d8ffc7 !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-toggler .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: #131d18; /* Dark green for brand name & nav links for visibility */
+}
+
+.navbar-brand {
+  font-family: "Montserrat", cursive; /*change the font name for what you have*/
+  font-size: 2.25rem;
+}
+
+.btn-info {
+  color: #131d18; /* Lightest shade for text on info button for contrast */
+  background-color: #72b372; /* Light green for button background */
+  border-color: #76a761; /* Dark green for button border */
+}
+
+.btn-info:hover {
+  background-color: #131d18;
+  color: #f2ffe9;
+}
+
+.btn-primary {
+  color: #f2fbf2; /* Lightest shade for text */
+  font-size: 150%;
+  background-color: #005a00; /* Dark green for primary button background */
+  border-width: thick;
+}
+
+body {
+  background-color: #f2ffe9; /* Lightest shade for body background to follow the 60% rule */
+}
