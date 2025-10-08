@@ -26,23 +26,28 @@
 }
 
 .btn-info {
-  color: #131d18; /* Lightest shade for text on info button for contrast */
+  color: #f2ffe9; /* Lightest shade for text on info button for contrast */
   background-color: #72b372; /* Light green for button background */
-  border-color: #76a761; /* Dark green for button border */
+  border-color: #76a761;
 }
 
 .btn-info:hover {
-  background-color: #131d18;
-  color: #f2ffe9;
+  color: #f2ffe9; /* Lightest shade for text on info button for contrast */
+  background-color: #72b372; /* Light green for button background */
+  border-color: #76a761;
 }
 
-.btn-primary {
-  color: #f2fbf2; /* Lightest shade for text */
-  font-size: 150%;
-  background-color: #005a00; /* Dark green for primary button background */
-  border-width: thick;
+.btn.btn-secondary {
+  color: #f2ffe9; /* Lightest shade for text on info button for contrast */
+  background-color: #72b372; /* Light green for button background */
+  border-color: #76a761;
+}
+
+.btn.btn-secondary:hover {
+  background-color: #45a049;
+  border-color: #45a049;
 }
 
 body {
-  background-color: #f2ffe9; /* Lightest shade for body background to follow the 60% rule */
+  background-color: #f2ffe9;
 }
