@@ -48,6 +48,12 @@
   border-color: #45a049;
 }
 
+.btn.btn-primary {
+  color: #f2ffe9; /* Lightest shade for text on info button for contrast */
+  background-color: #72b372; /* Light green for button background */
+  border-color: #76a761;
+}
+
 body {
   background-color: #f2ffe9;
 }
